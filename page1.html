@@ -5,7 +5,7 @@
 	<title>page1</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
-	
+	<!-- <link rel="stylesheet" href="css/css.css">	 -->
 </head>
 <body>
 	<div class="box">
@@ -106,22 +106,37 @@
 
 			<div class="div5-4">
 				<img src="images/u80.png" alt="">
-				<img src="images/u87.png" alt="">
-				<span>推荐</span>
+				<!-- <img src="images/u87.png" alt="">
+				<span>推荐</span> -->
 			</div>
 		</div>
 			
 
-		<a href="#" class="div6" id="a1" onclick="changeColor1()">
+		<a href="#" class="div6" id="a1" >
 			<span class="fa fa-square-o" id="s1"></span>
 			<p style="color: blue; font-size: 12px;" id="p1">首页</p>
 		</a>
-		<a href="#" class="div7" id="a2" onclick="changeColor1()">
+		<a href="更多普通.html" class="div7" id="a2" >
 			<span class="fa fa-square-o" id="s2"></span>
 			<p style="color: rgb(177, 156, 156); font-size: 12px;" id="p2">更多</p>
 		</a>
 	</div>
 
-<!-- <script src="js/script.js"></script> -->
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.mySlider.js"></script> 
+<script type="text/javascript">
+	$(function(){
+		$('.img').mySlider({
+			imgBox: $('.img'),
+			imgIco: $('.ico'),
+			active: 'on',
+			autoPlay: true,
+			interval: 3000,
+			speed: 500,
+			direction: true
+		});
+	});
+</script>>
 </body>
 </html>

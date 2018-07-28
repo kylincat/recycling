@@ -65,7 +65,7 @@
 .div6 {
 	width: 193px;
 	display: inline-block;
-	border-top: solid 2px rgb(173, 167, 167);
+	border-top: solid 1px rgb(173, 167, 167);
 	margin-top: 28px;
 	height: 60px;
 	background-color: white;
@@ -75,11 +75,12 @@
 	align-items: center;
 	justify-content: center;
 	text-decoration: none;
+
 }
 .div7 {
 	width: 182px;
 	display: inline-block;
-	border-top: solid 2px rgb(173, 167, 167);
+	border-top: solid 1px rgb(173, 167, 167);
 	margin-top: 28px;
 	height: 60px;
 	background-color: white;
@@ -127,7 +128,7 @@
 	right: -162px;
 	top: -71px;
 	display: flex;
-
+	border-radius: 8%;
 	
 }
 .div5-1 li span {
@@ -198,4 +199,34 @@
 	top: -7px;
 	left: -34px;
 
+}
+.div8 {
+	width: 375px;
+	height: 45px;
+	background-color: rgba(215, 215, 215, 1);
+	margin: 15px 0 0 0;
+	
+}
+.div8 span {
+	position: relative;
+	font-size:15px;
+	top: 9px;
+	left: 30px;
+}
+.div8 img {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	top: 13px;
+	right: -270px;
+	
+}
+.div9 {
+	width: 335px;
+	height: 45px;
+	background-color: rgba(215, 215, 215, 1);
+	margin: 0 auto;
+	position: relative;
+	top: 0px;
+	left: 0px;
 }
