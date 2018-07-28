@@ -35,13 +35,13 @@
 	font-size: 13px;
 	font-weight: bold;
 }
-.div2 img{
+.div3 img{
     transform: rotate(180deg);
     width: 20px;
     height: 20px;
-    position: absolute;
-    left: 200px;
-    top: 40px;
+    position: relative;
+    top: -30px;
+    left: 15px;
 
 }
 .div3 {
@@ -61,7 +61,7 @@
 }
 .div3 ul {
     position: relative;
-    top: 20px;
+    top: -5px;
     left: 0px;
 }
 .div3 ul li span:first-child{

@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+.box {
+	/* height: 730px; */
+	width: 375px;
+	/*background-color: red;*/
+	margin: 0 auto;
+}
+.div1 {
+	height: 27px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+.div1 img {
+	width: 360px;
+	height: 11px;
+}
+.div2 {
+	width: 375px;
+	height: 45px;
+	background-color: rgba(27, 27, 27, 1);
+	text-align: center;
+	line-height: 45px;
+	
+}
+.div2 span {
+	color: white;
+	font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    left: -12px;
+}
+.div2 img {
+    width: 20px;
+    height: 20px;
+    transform: rotate(180deg);
+    position: relative;
+    top: 5px;
+    left: -140px;
+}
+img {
+    width: 375px;
+    height: 181px;
+}
+#a1 {
+	font-size: 18px;
+	color: blue;
+}
+#a2 {
+	font-size: 18px; 
+	color: rgb(177, 156, 156);
+}
+.div3 {
+    width: 375px;
+    height: 200px;
+    background-color: rgba(242, 242, 242, 1);
+}
+.div3-1 {
+    height: 100px;
+    width: 375px;
+    background-color:white;
+    margin: 0 0 25px 0;
+}
+.div3-1 ul li{
+    list-style: none;
+    background-color: white;
+    width: 360px;
+    height: 50px;
+    margin:0 0 0 15px;
+    display: block;
+    line-height: 50px;
+    border-bottom: 2px solid rgb(204, 188, 188);
+}
+.div3-1 ul li span {
+    font-size: 14px;
+    margin-right: 35px;
+}
+#s2 {
+    color: #CCCCCC;
+}
+#s3 {
+    display: block;
+    height: 47px;
+    width: 125px;
+    position: relative;
+    top: -50px;
+    left: 235px;
+    margin: 0;
+    border-left: 2px solid rgb(204, 188, 188);
+    text-align: center;
+    /* background-color: greenyellow; */
+}
+.div6 {
+	width: 193px;
+	display: inline-block;
+	border-top: solid 1px rgb(173, 167, 167);
+	margin-top: 28px;
+	height: 60px;
+	background-color: white;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+
+}
+.div7 {
+	width: 182px;
+	display: inline-block;
+	border-top: solid 1px rgb(173, 167, 167);
+	margin-top: 28px;
+	height: 60px;
+	background-color: white;
+	float: right;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+
+}
+.div3-2 {
+	width: 140px;
+	height: 40px;
+	background-color: rgba(22, 155, 213);
+	margin: 0 auto;
+	position: relative;
+    text-align: center;
+    line-height: 40px;
+}
+.div3-2 span {
+    font-size: 14px;
+    color: #FFFFFF;
+}
