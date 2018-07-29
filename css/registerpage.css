@@ -81,6 +81,16 @@ img {
     font-size: 14px;
     margin-right: 35px;
 }
+.div3-1 ul li input {
+    font-size: 14px;
+	width: 140px;
+	height: 43px;
+	border: none;
+	outline: none;
+}
+#s1 {
+    margin-right: 50px;
+}
 #s2 {
     color: #CCCCCC;
 }
