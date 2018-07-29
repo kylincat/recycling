@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+.box {
+	/* height: 730px; */
+	width: 375px;
+	/*background-color: red;*/
+	margin: 0 auto;
+}
+.div1 {
+	height: 27px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+.div1 img {
+	width: 360px;
+	height: 11px;
+}
+.div2 {
+	width: 375px;
+	height: 45px;
+	background-color: rgba(27, 27, 27, 1);
+	text-align: center;
+    line-height: 45px;
+    margin: 0;
+	
+}
+.div2 span {
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+}
+#img1 {
+    transform: rotate(180deg);
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -30px;
+    left: 15px;
+
+}
+.div3 {
+    width: 375px;
+    height: 523px;
+    background-color: rgba(242, 242, 242, 1);
+    margin: 0;
+}
+.div3 ul li{
+    list-style: none;
+    height: 75px;
+    width: 65px;
+    background-color: white;
+    margin:0;
+    font-size: 10px;
+    text-align: center;
+    
+}
+.div3 ul {
+    position: relative;
+    top: -24px;
+    left: 0px;
+    overflow: hidden;
+}
+.div3 ul li img {
+    width: 25px;
+    height: 25px;
+    margin-top: 13px;
+}
+.div3 ul li span {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 26px;
+    left: -10px;
+}
+#u354 {
+    width: 40px;
+    height: 1px;
+    position: relative;
+    top: 5px;
+}
+.div4 {
+    margin: 0;
+    font-size: 14px;
+    position: relative;
+    top: -520px;
+    left: 65px;
+    height: 160px;
+    width: 310px;
+    text-align: center;
+}
+.div4 p {
+    font-size: 12px;
+    position: relative;
+    top: 5px;
+}
+.div4 > img {
+    height: 1px;
+    width: 290px;
+    margin-left: 20px;
+} 
+.price {
+    background-color: white;
+    width: 50px;
+    height: 17px;
+    display: inline-block;
+    /* float: left; */
+}
+.s1 {
+    position: relative;
+    top: 0px;
+    left: 35px;
+    float: left;
+}
+.div4 div {
+    margin-bottom: 10px;
+}
+#p1 {
+    position: relative;
+    left: -5px;
+}
+#p2 {
+    position: relative;
+    left: -10px;
+}
+#p3 {
+    position: relative;
+    left: -10px;
+}
+#p4 {
+    position: relative;
+    left: -61px;
+}
+#d1 {
+    position: relative;
+    left: 5px;
+}
+.div4 p span:last-child {
+    position: relative;
+    left: 10px;
+}
+.div5 {
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(22, 155, 213, 1);
+    position: relative;
+    top: -320px;
+    left: 145px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
