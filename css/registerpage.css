@@ -88,7 +88,7 @@ img {
 	border: none;
 	outline: none;
 }
-#s1 {
+#s4 {
     margin-right: 50px;
 }
 #s2 {
@@ -108,7 +108,7 @@ img {
 }
 .div6 {
 	width: 193px;
-	display: inline-block;
+	/* display: inline-block; */
 	border-top: solid 1px rgb(173, 167, 167);
 	margin-top: 28px;
 	height: 60px;
